@@ -8,16 +8,5 @@ import { Component, OnInit } from '@angular/core';
 export class A01Component implements OnInit {
   constructor() {}
 
-  ngOnInit(): void {
-    // if (document.querySelector('body')) {
-    //   console.log('hugr');
-    //   document.addEventListener('click', () => {
-    //     console.log('hoge');
-    //   });
-    // }
-  }
-
-  onClick() {
-    window.location.href = 'https://www.android.com/payapp';
-  }
+  ngOnInit(): void {}
 }
